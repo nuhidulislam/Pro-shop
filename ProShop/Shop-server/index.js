@@ -17,7 +17,7 @@ app.use(express.json());
 
 
 app.get('/',(req,res)=>{
-    res.send('Coffee maker server is running')
+    res.send('ProShop Server is Running.')
 })
 
 app.listen(port, ()=>{
